@@ -1,0 +1,202 @@
+{
+    "bc252807-2b9e-4362-82b5-fd11e7dcc422": {
+        "question": "Can you explain what a read replica pattern is and why it is used in system design?",
+        "answer": "A read replica pattern is a system design pattern used to improve the read performance of a database system. It involves creating one or more replicas of a database and directing all read traffic to the replicas, while keeping the primary database for handling write operations. This pattern is useful for improving the read performance of a system, as well as providing fault tolerance and availability.",
+        "difficulty": "Easy"
+    },
+    "a5ad2c7c-1920-4b95-a740-784b71628951": {
+        "question": "What is the difference between a relational database and a NoSQL database?",
+        "answer": "A relational database is a type of database that stores data in tables with well-defined relationships between them. It uses a structured query language (SQL) for querying data. On the other hand, a NoSQL database is a type of database that is designed for handling large volumes of unstructured or semi-structured data. It uses a variety of data models, such as document-oriented, key-value, or graph databases, and often uses a non-SQL query language or APIs for querying data.",
+        "difficulty": "Easy"
+    },
+    "30a26ac0-d649-437f-b3ec-175a632dbd3a": {
+        "question": "What is the difference between a frontend and a backend developer?",
+        "answer": "A frontend developer is a software developer who specializes in building user interfaces and client-side functionality of web applications. They typically work with HTML, CSS, and JavaScript to create the visual and interactive elements of a website or application. A backend developer, on the other hand, is a software developer who specializes in building the server-side functionality of web applications. They typically work with programming languages like Python, Java, or Node.js to build the server, database, and application logic of a web application.",
+        "difficulty": "Medium"
+    },
+    "10207fb5-5185-4436-b73b-f61ac94ee7bf": {
+        "question": "What is the difference between a stack and a queue data structure?",
+        "answer": "A stack is a Last-In-First-Out (LIFO) data structure, which means that the last element added to the stack is the first one to be removed. A queue, on the other hand, is a First-In-First-Out (FIFO) data structure, which means that the first element added to the queue is the first one to be removed. Stacks and queues can be implemented using arrays or linked lists, and are commonly used in various algorithms and data processing tasks.",
+        "difficulty": "Medium"
+    },
+    "52e093c4-bd9e-4e18-9752-7173afc8239c": {
+        "question": "What is the difference between a binary tree and a binary search tree?",
+        "answer": "A binary tree is a tree data structure in which each node has at most two child nodes. A binary search tree (BST) is a binary tree in which the left subtree of a node contains only nodes with keys less than the node's key, and the right subtree contains only nodes with keys greater than the node's key. BSTs are useful for searching, inserting, and deleting elements efficiently, and are commonly used in various algorithms and data processing tasks.",
+        "difficulty": "Medium"
+    },
+    "df1c6559-823d-49f8-92ec-8f625f9b5317": {
+        "question": "What is the difference between a hash table and a binary search tree?",
+        "answer": "A hash table is a data structure that uses a hash function to map keys to indices of an array, allowing for constant-time average-case complexity for search, insert, and delete operations. A binary search tree (BST), on the other hand, is a tree data structure that allows for logarithmic-time complexity for search, insert, and delete operations. Hash tables are generally faster than BSTs for search operations, but BSTs have the advantage of allowing for in-order traversal and range queries.",
+        "difficulty": "Hard"
+    },
+    "69b44416-6111-4edc-b8c6-2373912a946c": {
+        "question": "What is the difference between a linked list and an array?",
+        "answer": "A linked list is a linear data structure in which each element is a node that contains a value and a pointer to the next node. An array, on the other hand, is a linear data structure in which each element is stored in a contiguous block of memory. Linked lists have the advantage of allowing for efficient insertion and deletion of elements, but have the disadvantage of slower access times for random elements. Arrays have the advantage of faster access times for random elements, but have the disadvantage of inefficient insertion and deletion of elements.",
+        "difficulty": "Hard"
+    },
+    "62bc570c-3031-460c-aefa-6455c2f59c74": {
+        "question": "What is the difference between a recursive algorithm and an iterative algorithm?",
+        "answer": "A recursive algorithm is an algorithm that solves a problem by solving smaller instances of the same problem, until a base case is reached. An iterative algorithm, on the other hand, is an algorithm that solves a problem by repeatedly applying a set of instructions until a termination condition is met. Recursive algorithms can be more elegant and concise, but can be less efficient and harder to debug than iterative algorithms.",
+        "difficulty": "Hard"
+    },
+    "3d77d33c-c4a0-4738-8480-82fdb057d95e": {
+        "question": "What is the difference between a depth-first search and a breadth-first search?",
+        "answer": "A depth-first search (DFS) is a graph traversal algorithm that explores as far as possible along each branch before backtracking. A breadth-first search (BFS) is a graph traversal algorithm that explores all the vertices at the present depth prior to moving on to vertices at the next depth level. DFS is useful for finding a path between two nodes in a graph, while BFS is useful for finding the shortest path between two nodes in an unweighted graph.",
+        "difficulty": "Hard"
+    },
+    "0c294411-e0cc-436c-81d7-2e5c3da57680": {
+        "question": "What is the difference between a dynamic programming algorithm and a greedy algorithm?",
+        "answer": "A dynamic programming algorithm is an algorithm that solves a problem by breaking it down into smaller subproblems, solving each subproblem only once, and storing the solutions to subproblems to avoid redundant computation. A greedy algorithm is an algorithm that makes the locally optimal choice at each step, with the hope of finding a global optimum. Dynamic programming is useful for solving problems with overlapping subproblems and optimal substructure, while greedy algorithms are useful for solving problems with matroids or other structures that allow for locally optimal choices.",
+        "difficulty": "Very Hard"
+    },
+    "135f2ad8-9977-48ca-9486-ffb268dc3a27": {
+        "question": "What is the time complexity of binary search algorithm?",
+        "answer": "The time complexity of binary search algorithm is O(log n), where n is the number of elements in the sorted array.",
+        "difficulty": "Easy"
+    },
+    "a71494b4-8ecd-4366-8c6f-a932bc7466a1": {
+        "question": "What is the difference between a stack and a queue data structure?",
+        "answer": "A stack is a Last-In-First-Out (LIFO) data structure, which means that the last element added to the stack is the first one to be removed. A queue, on the other hand, is a First-In-First-Out (FIFO) data structure, which means that the first element added to the queue is the first one to be removed. Stacks and queues can be implemented using arrays or linked lists, and are commonly used in various algorithms and data processing tasks.",
+        "difficulty": "Easy"
+    },
+    "1f66067a-68a8-41db-a273-d23d613af989": {
+        "question": "What is the difference between a hash table and a binary search tree?",
+        "answer": "A hash table is a data structure that uses a hash function to map keys to indices of an array, allowing for constant-time average-case complexity for search, insert, and delete operations. A binary search tree (BST), on the other hand, is a tree data structure that allows for logarithmic-time complexity for search, insert, and delete operations. Hash tables are generally faster than BSTs for search operations, but BSTs have the advantage of allowing for in-order traversal and range queries.",
+        "difficulty": "Medium"
+    },
+    "870f2a66-c9f6-46db-9917-7b2753852178": {
+        "question": "What is the difference between a linked list and an array?",
+        "answer": "A linked list is a linear data structure in which each element is a node that contains a value and a pointer to the next node. An array, on the other hand, is a linear data structure in which each element is stored in a contiguous block of memory. Linked lists have the advantage of allowing for efficient insertion and deletion of elements, but have the disadvantage of slower access times for random elements. Arrays have the advantage of faster access times for random elements, but have the disadvantage of inefficient insertion and deletion of elements.",
+        "difficulty": "Medium"
+    },
+    "2a2b93c6-a516-4dfb-ac79-f56390afadec": {
+        "question": "What is the difference between a recursive algorithm and an iterative algorithm?",
+        "answer": "A recursive algorithm is an algorithm that solves a problem by solving smaller instances of the same problem, until a base case is reached. An iterative algorithm, on the other hand, is an algorithm that solves a problem by repeatedly applying a set of instructions until a termination condition is met. Recursive algorithms can be more elegant and concise, but can be less efficient and harder to debug than iterative algorithms.",
+        "difficulty": "Hard"
+    },
+    "b771a778-49ba-475d-aed7-4f7843d31cf0": {
+        "question": "What is the difference between a depth-first search and a breadth-first search?",
+        "answer": "A depth-first search (DFS) is a graph traversal algorithm that explores as far as possible along each branch before backtracking. A breadth-first search (BFS) is a graph traversal algorithm that explores all the vertices at the present depth prior to moving on to vertices at the next depth level. DFS is useful for finding a path between two nodes in a graph, while BFS is useful for finding the shortest path between two nodes in an unweighted graph.",
+        "difficulty": "Hard"
+    },
+    "ad3d65af-b93c-41e2-9753-c9df90a03786": {
+        "question": "What is the difference between a dynamic programming algorithm and a greedy algorithm?",
+        "answer": "A dynamic programming algorithm is an algorithm that solves a problem by breaking it down into smaller subproblems, solving each subproblem only once, and storing the solutions to subproblems to avoid redundant computation. A greedy algorithm is an algorithm that makes the locally optimal choice at each step, with the hope of finding a global optimum. Dynamic programming is useful for solving problems with overlapping subproblems and optimal substructure, while greedy algorithms are useful for solving problems with matroids or other structures that allow for locally optimal choices.",
+        "difficulty": "Very Hard"
+    },
+    "64f9db69-d886-4a75-af41-9c8ec8fc432d": {
+        "question": "What is the time complexity of quicksort algorithm?",
+        "answer": "The time complexity of quicksort algorithm is O(n log n) in average case, but it can be O(n^2) in worst case.",
+        "difficulty": "Easy"
+    },
+    "4ff956a4-e9ed-420f-ac77-3705c7b22c36": {
+        "question": "What is the difference between a hash table and a binary search tree?",
+        "answer": "A hash table is a data structure that uses a hash function to map keys to indices of an array, allowing for constant-time average-case complexity for search, insert, and delete operations. A binary search tree (BST), on the other hand, is a tree data structure that allows for logarithmic-time complexity for search, insert, and delete operations. Hash tables are generally faster than BSTs for search operations, but BSTs have the advantage of allowing for in-order traversal and range queries.",
+        "difficulty": "Medium"
+    },
+    "c49b3938-cbfe-4e0e-bbe8-97287ff46142": {
+        "question": "What is the time complexity of binary search tree insertion?",
+        "answer": "The time complexity of binary search tree insertion is O(log n) in average case, but it can be O(n) in worst case.",
+        "difficulty": "Medium"
+    },
+    "8c9d33a2-d71b-41c6-a9a5-e54256cd15ef": {
+        "question": "What is the difference between a list and a tuple in Python?",
+        "answer": "A list is mutable, while a tuple is immutable. This means that you can change the elements of a list, but you cannot change the elements of a tuple once it is assigned.",
+        "difficulty": "Easy"
+    },
+    "9f194d2a-9e1b-4cf2-9118-33fbff2c823a": {
+        "question": "What is object-oriented programming?",
+        "answer": "Object-oriented programming (OOP) is a programming paradigm based on the concept of 'objects', which can contain data and code: data in the form of fields, also known as attributes; and code, in the form of procedures, also known as methods.",
+        "difficulty": "Easy"
+    },
+    "ad5c1a72-75b8-46d8-8d2c-e0d392622fcb": {
+        "question": "What is the difference between a class and an object in Python?",
+        "answer": "A class is a blueprint for creating objects. An object is an instance of a class. In other words, a class is a template, and an object is an instance created from that template.",
+        "difficulty": "Easy"
+    },
+    "bfcfd949-5958-4de7-80a9-ad26b9808e6a": {
+        "question": "What is inheritance in object-oriented programming?",
+        "answer": "Inheritance is a mechanism in object-oriented programming where a new class can inherit the properties and methods of an existing class. The new class is called the subclass, and the existing class is called the superclass.",
+        "difficulty": "Medium"
+    },
+    "451e985c-1787-4e81-958c-7ebece292cb5": {
+        "question": "What is polymorphism in object-oriented programming?",
+        "answer": "Polymorphism is the ability of an object to take on multiple forms. In object-oriented programming, polymorphism allows us to use objects of different classes interchangeably. For example, a superclass reference can point to an object of a subclass.",
+        "difficulty": "Medium"
+    },
+    "f4cfcb88-5ba1-41b1-a6d0-571f439533a2": {
+        "question": "What is encapsulation in object-oriented programming?",
+        "answer": "Encapsulation is the mechanism of hiding the implementation details of an object from the outside world. It allows us to expose only what is necessary to the outside world, while keeping the implementation details private.",
+        "difficulty": "Medium"
+    },
+    "54d017ce-731e-4d35-8bf8-c5a2ac7926ef": {
+        "question": "What is a closure in Python?",
+        "answer": "A closure is a function that has access to variables in its enclosing scope, even after the enclosing function has returned. In other words, a closure is a function that 'closes over' the variables in its enclosing scope.",
+        "difficulty": "Medium"
+    },
+    "dcae690c-574b-48d6-83b5-79f9782c9893": {
+        "question": "What is a decorator in Python?",
+        "answer": "A decorator is a function that takes another function as its argument, and extends or modifies the behavior of the latter function without explicitly modifying it. Decorators are used to add functionality to functions or methods, such as logging, caching, or access control.",
+        "difficulty": "Hard"
+    },
+    "f5eda4b6-1368-4907-a52d-c5a3f0b7f0fc": {
+        "question": "What is a generator in Python?",
+        "answer": "A generator is a special type of function that can pause its execution and return a value, and then resume its execution from where it left off. Generators are used to write more memory-efficient code, as they do not need to store all the values in memory.",
+        "difficulty": "Hard"
+    },
+    "2750b03f-2edf-4f14-8589-64526b83c836": {
+        "question": "What is a context manager in Python?",
+        "answer": "A context manager is an object that defines the methods __enter__() and __exit__(), which are used to establish a context for a block of code. The __enter__() method is called at the beginning of the block, and the __exit__() method is called at the end of the block. Context managers are used to manage resources, such as files, locks, and connections, that need to be acquired and released.",
+        "difficulty": "Hard"
+    },
+    "3049aa3b-a665-4df2-914f-b0e479436aaa": {
+        "question": "What is the difference between a shallow copy and a deep copy in Python?",
+        "answer": "A shallow copy creates a new object and inserts references to the original objects. A deep copy creates a new object and recursively creates new objects for all the references. In other words, a shallow copy shares the memory, while a deep copy creates new memory.",
+        "difficulty": "Hard"
+    },
+    "cc67697b-a035-49c7-a7c6-723a95580c8f": {
+        "question": "What is a metaclass in Python?",
+        "answer": "A metaclass is a class of a class. In other words, a metaclass is a class that defines the behavior of a class. Metaclasses are used to modify the behavior of classes, such as adding new methods or attributes, or changing the behavior of inheritance.",
+        "difficulty": "Very Hard"
+    },
+    "f28ecc0d-0d31-4d17-aeb8-871aba9d0020": {
+        "question": "What is a coroutine in Python?",
+        "answer": "A coroutine is a function that can suspend its execution and transfer control to another function. Coroutines are used to write concurrent and asynchronous code, as they allow multiple functions to run concurrently without blocking the execution of other functions.",
+        "difficulty": "Very Hard"
+    },
+    "8ef249a4-473a-424f-af6b-0fbf438e1d09": {
+        "question": "What is a descriptor in Python?",
+        "answer": "A descriptor is an object that defines the methods __get__(), __set__(), and __delete__(), which are called when an attribute of an object is accessed, assigned, or deleted. Descriptors are used to modify the behavior of attributes, such as making them read-only or adding validation.",
+        "difficulty": "Very Hard"
+    },
+    "64a56147-dcb2-495d-affe-7fe84edf6223": {
+        "question": "What is a functor in Python?",
+        "answer": "A functor is an object that can be called like a function, but it is not a function. Functors are used to abstract over functions and apply them to different arguments. Functors are also known as higher-order functions or functions as objects.",
+        "difficulty": "Very Hard"
+    },
+    "c40650bf-1ebb-4963-aa50-57a664c75885": {
+        "question": "What is a monad in Python?",
+        "answer": "A monad is a design pattern that allows for the sequencing of operations. Monads are used to abstract over the sequencing of operations, and they provide a way to compose functions that return different types of values. Monads are often used in functional programming languages, such as Haskell and Scala.",
+        "difficulty": "Very Hard"
+    },
+    "7f6adcb5-4780-4368-a3b8-a9e2e000434b": {
+        "question": "What is a monoid in Python?",
+        "answer": "A monoid is a design pattern that defines a way to combine two values of the same type. Monoids are used to combine values in a way that is associative and has an identity element. Monoids are often used in functional programming languages, such as Haskell and Scala.",
+        "difficulty": "Very Hard"
+    },
+    "865159ba-23f9-407a-a6da-512b4bb687b0": {
+        "question": "What is a semigroup in Python?",
+        "answer": "A semigroup is a design pattern that defines a way to combine two values of the same type. Semigroups are similar to monoids, but they do not require an identity element. Semigroups are often used in functional programming languages, such as Haskell and Scala.",
+        "difficulty": "Very Hard"
+    },
+    "1b1c324b-1db7-4d1e-822b-b78ee4391606": {
+        "question": "What is a category in Python?",
+        "answer": "A category is a design pattern that defines a way to combine two values of the same type, but with a different structure. Categories are often used in functional programming languages, such as Haskell and Scala.",
+        "difficulty": "Very Hard"
+    },
+    "a9bd4547-3b71-44a0-b601-8071e1123c58": {
+        "question": "What is a functor category in Python?",
+        "answer": "A functor category is a design pattern that defines a way to combine two values of different types. Functor categories are used to abstract over the sequencing of operations, and they provide a way to compose functions that return different types of values. Functor categories are often used in functional programming languages, such as Haskell and Scala.",
+        "difficulty": "Very Hard"
+    }
+}
