@@ -26,6 +26,7 @@ urlpatterns = [
     path('qa_api/',include("qa_apis.urls")),
     path('calender/',include("calender.urls")),
     path('accounts/',include("accounts.urls")),
+     path('forgetpassword/',include("forgetpassword.urls")),
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

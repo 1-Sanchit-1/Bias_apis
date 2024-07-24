@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'calender',
     'accounts',
     'rest_framework.authtoken',
+    'forgetpassword'
 ]
 
 MIDDLEWARE = [
